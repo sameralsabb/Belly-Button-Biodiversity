@@ -17,7 +17,7 @@ import numpy as np
 #################################################
 # Database Setup
 #################################################
-engine = create_engine("sqlite:///DataSets/belly_button_biodiversity.sqlite")
+engine = create_engine("sqlite:///db/belly_button_biodiversity.sqlite")
 
 # reflect an existing database into a new model
 Base = automap_base()
